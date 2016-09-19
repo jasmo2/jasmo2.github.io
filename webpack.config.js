@@ -3,7 +3,7 @@ var path = require("path");
 var SRC_DIR = "./static";
 var JS_SRC_DIR = SRC_DIR + "/js";
 
-var DEST_DIR = "./bundle";
+var DEST_DIR = "./";
 
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -49,10 +49,10 @@ module.exports = {
 					        },
 
 	        plugins: [
-					    new ExtractTextPlugin("../css/app.css")
+					    new ExtractTextPlugin("./app.css")
 		      ],
 		  output: {
-			      path: DEST_DIR + "/js",
+			      path: DEST_DIR ,
 			          filename: "app.js"
 					    }
 };
