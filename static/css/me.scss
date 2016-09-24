@@ -1,19 +1,37 @@
 $me-background: #dedddd;
 .case {
-  width: 100%;
-  height: 100vh;
   &.me{
-      background-color: $me-background;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/meSectionBackground.png') no-repeat center top;
+    background-size: cover;
+    position: relative;
+    .verticalMeSection{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
     .items{
       .item{
         &#meImg{
           margin: 1em auto;
           .header{
             font-size: 2.6em;
+            color: white;
           }
-          
+          div {
+            color: white;
+          }
+
         }
       }
     }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .ui.image.mobile.except.grid{
+    display: none;
   }
 }
