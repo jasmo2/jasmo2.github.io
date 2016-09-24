@@ -4,13 +4,13 @@ class Me extends Component{
   render(){
     return (
     <section id="me" className="case me">
-      <div className="ui grid centered">
+      <div className="ui grid centered verticalMeSection">
         <div className="sexteen column row">
         <div className="twelve wide column">
           <span className="ui items">
               <div className="item" id="meImg">
                 <div className="ui small image">
-                  <img src="./static/images/JaimeFoto.png" height="60" width="60"/>
+                  <img className="ui image mobile except grid" src="./static/images/JaimeFoto.png" height="60" width="60"/>
                 </div>
                 <div className="content">
                   <a className="header">My name is <i>Jaime Molina</i> </a>
@@ -26,15 +26,17 @@ class Me extends Component{
                       The mainly reason to choose this path on my professional life was, the opportunity to learn every day, to create real products every day, which makes me happy.                    </p>
                   </div>
                   <div className="extra">
-                    <button className="ui circular facebook icon button">
-                      <i className="facebook icon"></i>
-                    </button>
-                    <button className="ui circular twitter icon button">
-                      <i className="twitter icon"></i>
-                    </button>
-                    <a className="ui circular linkedin icon button">
-                      <i className="linkedin icon"></i>
-                    </a>
+                    <div className="ui equal width grid">
+                      <a className="column ui circular github icon button">
+                        <i className="github icon"></i>
+                      </a>
+                      <a className="column ui circular twitter icon button">
+                        <i className="twitter icon"></i>
+                      </a>
+                      <a className="column ui circular linkedin icon button">
+                        <i className="linkedin icon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
