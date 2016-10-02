@@ -1,6 +1,14 @@
 $experience-background: #ded;
 .case {
-  &.experience{
-      background-color: $experience-background;
+  &#experience{
+    color: white !important;
+    background: url(
+      "../images/tools1.png") left bottom no-repeat,
+      url("../images/tools2.png") right top no-repeat;
+    background-size: 100%, 100%;
+    background-color: #1db6bc;
+    .row.headerRow{
+        margin-top: 2.3em;
+      }
   }
 }
