@@ -10,7 +10,7 @@ class Me extends Component{
           <span className="ui items">
               <div className="item" id="meImg">
                 <div className="ui small image">
-                  <img className="ui image mobile except grid" src="./static/images/JaimeFoto.png" height="60" width="60"/>
+                  <img className="ui image rounded mobile except grid" src="./static/images/JaimeFoto.png" height="60" width="60"/>
                 </div>
                 <div className="content">
                   <a className="header">My name is <i>Jaime Molina</i> </a>
