@@ -36437,17 +36437,17 @@
 	                        { className: "ui equal width grid" },
 	                        _react2.default.createElement(
 	                          "a",
-	                          { className: "column ui circular github icon button" },
+	                          { href: "https://github.com/jasmo2", className: "column ui circular github icon button" },
 	                          _react2.default.createElement("i", { className: "github icon" })
 	                        ),
 	                        _react2.default.createElement(
 	                          "a",
-	                          { className: "column ui circular twitter icon button" },
+	                          { href: "https://twitter.com/ComJasmo2", className: "column ui circular twitter icon button" },
 	                          _react2.default.createElement("i", { className: "twitter icon" })
 	                        ),
 	                        _react2.default.createElement(
 	                          "a",
-	                          { className: "column ui circular linkedin icon button" },
+	                          { href: "https://co.linkedin.com/in/jaime-molina-21592960", className: "column ui circular linkedin icon button" },
 	                          _react2.default.createElement("i", { className: "linkedin icon" })
 	                        )
 	                      )
@@ -36706,7 +36706,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              null,
-	              "Tecnologies and Experience"
+	              "Portafolio"
 	            )
 	          ),
 	          _react2.default.createElement(
