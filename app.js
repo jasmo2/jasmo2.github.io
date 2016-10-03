@@ -36393,7 +36393,7 @@
 	                  _react2.default.createElement(
 	                    "div",
 	                    { className: "ui small image" },
-	                    _react2.default.createElement("img", { className: "ui image mobile except grid", src: "./static/images/JaimeFoto.png", height: "60", width: "60" })
+	                    _react2.default.createElement("img", { className: "ui image rounded mobile except grid", src: "./static/images/JaimeFoto.png", height: "60", width: "60" })
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
