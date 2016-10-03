@@ -19818,6 +19818,10 @@
 
 	var _experienceSection2 = _interopRequireDefault(_experienceSection);
 
+	var _portafolioSection = __webpack_require__(181);
+
+	var _portafolioSection2 = _interopRequireDefault(_portafolioSection);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -19848,7 +19852,8 @@
 	          'div',
 	          { className: 'container' },
 	          _react2.default.createElement(_meSection2.default, null),
-	          _react2.default.createElement(_experienceSection2.default, null)
+	          _react2.default.createElement(_experienceSection2.default, null),
+	          _react2.default.createElement(_portafolioSection2.default, null)
 	        )
 	      );
 	    }
@@ -19931,11 +19936,6 @@
 	              'a',
 	              { href: '#me', className: 'header item' },
 	              'How am I?'
-	            ),
-	            _react2.default.createElement(
-	              'a',
-	              { href: '#profile', className: 'item' },
-	              'Profile'
 	            ),
 	            _react2.default.createElement(
 	              'a',
@@ -36512,7 +36512,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              null,
-	              "Experience Section"
+	              "Tecnologies and Experience"
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -36654,6 +36654,94 @@
 	}(_react.Component);
 
 	exports.default = Experience;
+
+/***/ },
+/* 181 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(13);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Portafolio = function (_Component) {
+	  _inherits(Portafolio, _Component);
+
+	  function Portafolio() {
+	    _classCallCheck(this, Portafolio);
+
+	    return _possibleConstructorReturn(this, (Portafolio.__proto__ || Object.getPrototypeOf(Portafolio)).apply(this, arguments));
+	  }
+
+	  _createClass(Portafolio, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "section",
+	        { id: "portafolio", className: "case experiportafolioence" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ui grid centered" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "row headerRow" },
+	            _react2.default.createElement(
+	              "h1",
+	              null,
+	              "Tecnologies and Experience"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "four wide computer six wide tablet column centered" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "http://duckduckgo.com", className: "ui medium image" },
+	              _react2.default.createElement("img", { src: "static/images/image.png" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "four wide computer six wide tablet column centered" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "http://duckduckgo.com", className: "ui medium image" },
+	              _react2.default.createElement("img", { src: "static/images/image.png" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "four wide computer six wide tablet column centered" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "http://duckduckgo.com", className: "ui medium image" },
+	              _react2.default.createElement("img", { src: "static/images/image.png" })
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Portafolio;
+	}(_react.Component);
+
+	exports.default = Portafolio;
 
 /***/ }
 /******/ ]);

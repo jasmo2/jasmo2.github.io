@@ -7,8 +7,18 @@ class Portafolio extends Component{
 
         <div className="ui grid centered">
           <div className="row headerRow"><h1>Tecnologies and Experience</h1></div>
-          <div className="sixteen wide">
-            <a href="http://duckduckgo.com" class="ui medium image">
+          <div className="four wide computer six wide tablet column centered">
+            <a href="http://duckduckgo.com" className="ui medium image">
+              <img src="static/images/image.png"/>
+            </a>
+          </div>
+          <div className="four wide computer six wide tablet column centered">
+            <a href="http://duckduckgo.com" className="ui medium image">
+              <img src="static/images/image.png"/>
+            </a>
+          </div>
+          <div className="four wide computer six wide tablet column centered">
+            <a href="http://duckduckgo.com" className="ui medium image">
               <img src="static/images/image.png"/>
             </a>
           </div>
