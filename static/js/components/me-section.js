@@ -27,13 +27,13 @@ class Me extends Component{
                   </div>
                   <div className="extra">
                     <div className="ui equal width grid">
-                      <a className="column ui circular github icon button">
+                      <a href="https://github.com/jasmo2" className="column ui circular github icon button">
                         <i className="github icon"></i>
                       </a>
-                      <a className="column ui circular twitter icon button">
+                      <a href="https://twitter.com/ComJasmo2" className="column ui circular twitter icon button">
                         <i className="twitter icon"></i>
                       </a>
-                      <a className="column ui circular linkedin icon button">
+                      <a href="https://co.linkedin.com/in/jaime-molina-21592960" className="column ui circular linkedin icon button">
                         <i className="linkedin icon"></i>
                       </a>
                     </div>
