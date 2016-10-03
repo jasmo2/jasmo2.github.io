@@ -6,7 +6,7 @@ class Experience extends Component{
       <section id="experience" className="case experience">
 
         <div className="ui grid centered">
-          <div className="row headerRow"><h1>Experience Section</h1></div>
+          <div className="row headerRow"><h1>Tecnologies and Experience</h1></div>
 
           <div className="sixteen wide tablet eight wide computer column centered technologies">
             <div className="ui tiny images">

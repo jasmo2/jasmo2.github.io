@@ -24,7 +24,6 @@ class Navbar extends Component {
             <a href="#me" className="header item">
               How am I?
             </a>
-            <a href="#profile" className="item">Profile</a>
             <a href="#experience" className="item">Tecnologies and Experience</a>
             <a href="#portafolio" className="item">Portafolio</a>
             <a href="#contact" className="item">Contact</a>

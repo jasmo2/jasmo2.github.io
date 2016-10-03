@@ -3,6 +3,7 @@ import Navbar from './navbar'
 import Sidebar from './sidebar'
 import Me from './me-section'
 import Experience from './experience-section'
+import Portafolio from './portafolio-section'
 
 class App extends React.Component{
         // <Sidebar/>
@@ -13,6 +14,7 @@ class App extends React.Component{
         <div className="container">
           <Me/>
           <Experience/>
+          <Portafolio/>
         </div>
       </span>
     )
