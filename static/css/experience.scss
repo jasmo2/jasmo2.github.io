@@ -5,7 +5,7 @@ $experience-background: #ded;
     color: white !important;
     .ui.grid{
       height: 100%;
-      background: url(../images/background-tecnologies.png);
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/meSectionBackground.png') center top;
       background-size: 100%, 100%;
       background-color: #A4A8A8;
       .row.headerRow{
