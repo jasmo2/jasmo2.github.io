@@ -5,7 +5,10 @@ jQuery.fn.dropdown = require('semantic-ui-dropdown');
 jQuery.fn.transition = require('semantic-ui-transition');
 jQuery.fn.transition = require('semantic-ui-transition');
 jQuery.fn.visibility = require('semantic-ui-visibility');
-
+var navstyle = {
+  color: 'white',
+  msTransition: 'all' // 'ms' is the only lowercase vendor prefix
+};
 
 class Navbar extends Component {
   componentDidMount(){
@@ -20,13 +23,13 @@ class Navbar extends Component {
       <div className="ui grid navbargrid cero mleft mrigth" id="main-navbar">
         <div className="computer tablet only row">
           <div className="ui navbar-color fixed menu navbar page grid">
-            <a href="" className="brand item">Jasmo2</a>
+            <a href="" className="brand item item-color">Jasmo2</a>
             <a href="#me" className="header item">
               How am I?
             </a>
-            <a href="#experience" className="item">Tecnologies and Experience</a>
-            <a href="#portafolio" className="item">Portafolio</a>
-            <a href="#contact" className="item">Contact</a>
+            <a href="#experience" className="item item-color">Tecnologies and Experience</a>
+            <a href="#portafolio" className="item item-color">Portafolio</a>
+            <a href="#contact" className="item item-color">Contact</a>
           </div>
         </div>
         <div className="mobile only row">

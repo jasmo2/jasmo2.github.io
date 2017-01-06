@@ -19904,6 +19904,10 @@
 	_jquery2.default.fn.transition = __webpack_require__(179);
 	_jquery2.default.fn.transition = __webpack_require__(179);
 	_jquery2.default.fn.visibility = __webpack_require__(180);
+	var navstyle = {
+	  color: 'white',
+	  msTransition: 'all' // 'ms' is the only lowercase vendor prefix
+	};
 
 	var Navbar = function (_Component) {
 	  _inherits(Navbar, _Component);
@@ -19937,7 +19941,7 @@
 	            { className: 'ui navbar-color fixed menu navbar page grid' },
 	            _react2.default.createElement(
 	              'a',
-	              { href: '', className: 'brand item' },
+	              { href: '', className: 'brand item item-color' },
 	              'Jasmo2'
 	            ),
 	            _react2.default.createElement(
@@ -19947,17 +19951,17 @@
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { href: '#experience', className: 'item' },
+	              { href: '#experience', className: 'item item-color' },
 	              'Tecnologies and Experience'
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { href: '#portafolio', className: 'item' },
+	              { href: '#portafolio', className: 'item item-color' },
 	              'Portafolio'
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { href: '#contact', className: 'item' },
+	              { href: '#contact', className: 'item item-color' },
 	              'Contact'
 	            )
 	          )
