@@ -36723,7 +36723,7 @@
 	            { className: "four wide computer six wide tablet column centered" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "http://help-esac.rhcloud.com/es/entrenamiento", className: "ui medium image" },
+	              { target: "_blank", href: "http://help-esac.rhcloud.com/es/entrenamiento", className: "ui medium image" },
 	              _react2.default.createElement("img", { src: "static/images/project-prometeo.png" })
 	            )
 	          ),
@@ -36732,7 +36732,7 @@
 	            { className: "four wide computer six wide tablet column centered" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "http://seamos.co/", className: "ui medium image" },
+	              { target: "_blank", href: "http://seamos.co/", className: "ui medium image" },
 	              _react2.default.createElement("img", { src: "static/images/project-seamos.png" })
 	            )
 	          ),
@@ -36741,7 +36741,7 @@
 	            { className: "four wide computer six wide tablet column centered" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "http://soulcookies.co/", className: "ui medium image" },
+	              { target: "_blank", href: "http://soulcookies.co/", className: "ui medium image" },
 	              _react2.default.createElement("img", { src: "static/images/project-soulcookies.png" })
 	            )
 	          ),
@@ -36750,8 +36750,17 @@
 	            { className: "four wide computer six wide tablet column centered" },
 	            _react2.default.createElement(
 	              "a",
-	              { href: "http://coonatra.herokuapp.com/", className: "ui medium image" },
+	              { target: "_blank", href: "http://coonatra.herokuapp.com/", className: "ui medium image" },
 	              _react2.default.createElement("img", { src: "static/images/project-coonatra.png" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "four wide computer six wide tablet column centered" },
+	            _react2.default.createElement(
+	              "a",
+	              { target: "_blank", href: "http://sonidoslibres-g4.herokuapp.com/", className: "ui medium image" },
+	              _react2.default.createElement("img", { src: "static/images/project-sonidosLibres.png" })
 	            )
 	          )
 	        )
